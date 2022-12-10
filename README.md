@@ -58,7 +58,16 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 Demonstrate your understanding of this sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question.
 
 1. What is the DOM?
+    The DOM stands for the Document Object Model. The DOM represents the contents of an HTML document, and Javascriot can access the DOM in order to make a page more interactive.
+
 2. What is an event?
+    An event is an action that a user takes on a webpage, such as clicking, scrolling, zooming, using the keyboard, etc.
+
 3. What is an event listener?
+    An event listener waits for a certain event to happen on a page, so that an action can be taken in response to the event. For example, an event listener can wait for a user to hover their mouse over a section of text on the page and then trigger a reaction, such as that section being bolded or turning a different color.
+
 4. Why would we convert a NodeList into an Array?
+    We would convert a NodeList into an array in order to access more Javascript functionality. For example, the forEach() Javascriot method can be used to iterate over an array while the same can't be done with a NodeList.
+
 5. What is a component?
+    A component is a part of an element that is made up of HTML, CSS, and JavaScript. It is a REUSABLE piece of code that can be built and applied to multiple elements that are similar in functionality and styling.
