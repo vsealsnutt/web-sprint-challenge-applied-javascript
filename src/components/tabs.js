@@ -19,19 +19,28 @@ const Tabs = (topics) => {
   const tab1 = document.createElement('div');
   const tab2 = document.createElement('div');
   const tab3 = document.createElement('div');
+  const tab4 = document.createElement('div');
+  const tab5 = document.createElement('div');
 
   newsTopics.classList.add('topics');
   tab1.classList.add('tab');
   tab2.classList.add('tab');
   tab3.classList.add('tab');
+  tab4.classList.add('tab');
+  tab5.classList.add('tab');
 
   tab1.textContent = topics[0];
   tab2.textContent = topics[1];
   tab3.textContent = topics[2];
+  tab4.textContent = topics[3];
+  tab5.textContent = topics[4];
+
 
   newsTopics.appendChild(tab1);
   newsTopics.appendChild(tab2);
   newsTopics.appendChild(tab3);
+  newsTopics.appendChild(tab4);
+  newsTopics.appendChild(tab5);
 
   return newsTopics;
 }
